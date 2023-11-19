@@ -1,5 +1,25 @@
 # Titanic - Learning from Disaster
 
+Kaggle Competition: [Titanic - Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic/overview)
+
+## Model Results
+- Best Decision Tree Accuracy: 0.84
+
+### Classification Report
+          precision    recall  f1-score   support
+       0       0.88      0.86      0.87       114
+       1       0.76      0.80      0.78        65
+
+accuracy                           0.84       179
+
+### Confusion Matrix
+[[98 16]
+[13 52]]
+
+- Precision: 0.76
+- Recall: 0.8
+- F1 Score: 0.78
+
 The goal of this analysis is to predict the survival of passengers on the Titanic. The dataset underwent preprocessing and feature engineering to prepare it for modeling. Various transformations, including imputation, standardization, and one-hot encoding, were applied to handle missing values and convert categorical features.
 
 ## Feature Engineering and Preprocessing
